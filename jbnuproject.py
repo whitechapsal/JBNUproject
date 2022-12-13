@@ -7,7 +7,6 @@ from datetime import datetime
 # maping
 import json
 import requests
-import branca
 import folium
 from folium import plugins
 
