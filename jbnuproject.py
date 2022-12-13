@@ -7,8 +7,8 @@ from datetime import datetime
 # maping
 import json
 import requests
-pip install branca
-pip install folium
+pip3 install branca
+pip3 install folium
 import branca
 import folium
 from folium import plugins
