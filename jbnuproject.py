@@ -7,8 +7,12 @@ from datetime import datetime
 # maping
 import json
 import requests
-pip3 install branca
-pip3 install folium
+import subprocess
+import sys
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+install branca
+install folium
 import branca
 import folium
 from folium import plugins
